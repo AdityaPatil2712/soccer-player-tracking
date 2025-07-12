@@ -32,14 +32,14 @@ Typical applications include:
 
 ## Project Structure
 re-idproject/
-├── models/
-│ └── yolo_soccer.pt # YOLO model weights (download separately)
-├── videos/
-│ └── input.mp4 # Example input video
-├── detect_video.py # Main detection and tracking script
-├── track_video.py # Additional experiments
-├── requirements.txt
-└── README.md
+1) models/
+   1.1) yolo_soccer.pt # YOLO model weights (download separately)
+2) videos/
+   2.1) input.mp4 # Example input video
+3) detect_video.py # Main detection and tracking script
+4) track_video.py # Additional experiments
+5) requirements.txt
+6) README.md
 
 ## Installation
 1. Clone the repository:
