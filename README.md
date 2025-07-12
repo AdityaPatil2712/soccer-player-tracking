@@ -4,7 +4,7 @@
   <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" />
   <img src="https://raw.githubusercontent.com/opencv/opencv/master/doc/opencv-logo.png" alt="OpenCV" height="48"/>
   <img src="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner.png" alt="YOLOv8" height="48"/>
-  <img src="https://raw.githubusercontent.com/nwojke/deep_sort/master/resources/deep_sort_logo.png" alt="DeepSORT" height="48"/>
+  <img src="https://raw.githubusercontent.com/roboflow-ai/notebooks/main/notebooks/images/track.gif" alt="DeepSORT" height="48"/>
 </p>
 
 
