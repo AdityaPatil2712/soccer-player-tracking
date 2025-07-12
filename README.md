@@ -31,3 +31,65 @@ Typical applications include:
 - FPS monitoring to evaluate performance
 
 ## Project Structure
+re-idproject/
+├── models/
+│ └── yolo_soccer.pt # YOLO model weights (download separately)
+├── videos/
+│ └── input.mp4 # Example input video
+├── detect_video.py # Main detection and tracking script
+├── track_video.py # Additional experiments
+├── requirements.txt
+└── README.md
+
+## Installation
+1. Clone the repository:
+    ```
+    git clone https://github.com/AdityaPatil2712/soccer-player-tracking.git
+    cd soccer-player-tracking
+    ```
+
+2. Create and activate a virtual environment:
+    ```
+    python -m venv venv
+    source venv/bin/activate    # On Windows system
+    ```
+
+3. Install the required Python packages:
+    ```
+    pip install -r requirements.txt
+    ```
+
+4. Download the YOLOv8 model weights file from:
+    ```
+    https://drive.google.com/file/d/1-5fOSHOSB9UXyP_enOoZNAMScrePVcMD/view
+    ```
+    and place it inside the `models/` folder as:
+    ```
+    models/yolo_soccer.pt
+    ```
+
+## Usage
+Run the main tracking program with:
+Adjust the paths in the script if your video or model locations differ.
+
+## Example Output
+The system processes the video, assigning each player a unique ID that remains stable across frames.  
+It overlays bounding boxes, ID labels, speed measurements, and motion trails to show recent paths.
+
+## Future Work
+- Integration of player heatmaps and field coverage analytics
+- Detection of passes, shots, or fouls using additional machine learning models
+- Live dashboard visualizations using Streamlit or a web framework
+- API service to deliver processed analytics data to external systems
+
+## Acknowledgements
+- Ultralytics YOLO for advanced object detection
+- DeepSORT for multi-object tracking
+- OpenCV for video processing and visualization
+
+## License
+This project is provided under the MIT License.  
+It may be freely modified and distributed with proper attribution.
+
+
+
